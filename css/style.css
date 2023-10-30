@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+    background: #f9f9f9;
+}
+
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+#logo span{
+    color: #ffa500;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover{
+    background: #ffa500;
+    color: white;
+}
+
+.home{
+    width: 100;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2));
+}
+
+.home .content{
+    text-align: center;
+    padding-top: 20;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .ab-image {
+    /* The image used */
+    /* background-image: url("photographer.jpg"); */
+  
+    /* Add the blur effect */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .ab-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .c2{
+    margin-top: 30px;
+  }
+ 
+.col-lg-4{
+    text-align: center;
+}
+  .carousel-control-next, .carousel-control-prev {
+    height: 60%;
+  }
+
+  .btn-donate{
+    
+        height: 60px;
+        width: 150px;
+        font-size: 20px;
+        font-family: Cursive;
+    
+  }
+
+  .p2{
+    font-family:'playball', cursive;
+
+  }
+
+  .p4{
+    font-family: 'Fondamento', cursive;
+    font-size: 40px;
+    text-decoration:underline;
+     
+  }
+
+  .p4 span{
+    font-family: 'Fondamento', cursive;
+    color:darkgreen;
+  }
+
+  .p5{
+    font-family: 'DM Serif Display', serif;
+  }
